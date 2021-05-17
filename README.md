@@ -33,9 +33,7 @@ web_app
 
 如果要修改配置文件，只要修改：`config.yaml` 为对应的格式文件即可
 
-如： `config.yaml` -> `config.json`
-
-`settings/settings.go`
+如： `config.yaml` -> `config.json`。修改 `settings/settings.go`文件：
 
 ```go
 func Init() (err error) {
