@@ -1,0 +1,26 @@
+app:
+  name: "web_app"
+  mode: "dev"
+  port: "8081"
+
+log:
+  level: "debug"            # 记录日志级别；debug，info，warn，error，dpanic，panic，fatal
+  filename: "web_app.log"   # 日志文件的位置
+  max_size: 255             # 在进行切割之前，日志文件的最大大小，单位:MB
+  max_age: 30               # 保留旧文件的最大天数，单位:天
+  max_backups: 7            # // 保留旧文件的最大天数
+mysql:
+  host: "122.51.159.206"
+  port: "3306"
+  user: "learn"
+  password: "jinx"
+  dbname: "learn"
+  max_open_connects: 200
+  max_idle_connects: 50
+redis:
+  host: "122.51.159.206"
+  port: "6379"
+  user: "root"
+  auth: "jin516.,."
+  db: 0
+  pool_size: 100
