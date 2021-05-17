@@ -25,7 +25,7 @@ web_app
 │
 ├─README.md             README 文件
 │
-├─web_app.log             日志 文件
+├─web_app.log           日志 文件
 ```
 
 #### 配置文件
